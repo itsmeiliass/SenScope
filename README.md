@@ -38,5 +38,5 @@ Before running the app, make sure you have the following installed on your syste
     ```bash
    python app.py
 3. open navigator go to 
- ```bash
+    ```bash
     http://127.0.0.1:5000/
