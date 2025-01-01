@@ -17,7 +17,7 @@ This classification provides valuable insights for businesses, organizations, an
 - **`/templates`**: Contains the HTML files for rendering the Flask app, including the index page and results page.
 - **`app.py`**: The main Flask application that handles routing and sentiment analysis.
 - **`main.py`**: the full data processing and model deployement .
--**`twitter_training`**: data set used for training .
+- **`twitter_training`**: data set used for training .
 
 
 
