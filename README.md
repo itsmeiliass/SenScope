@@ -33,5 +33,12 @@ Before running the app, make sure you have the following installed on your syste
    ```bash
    git clone https://github.com/itsmeiliass/SenScope.git
    cd SenScope
+
+2. run the flask app 
+    ```bash
    python app.py
+3. open navigator go to 
+ ```bash
+    http://127.0.0.1:5000/
+ 
    
