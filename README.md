@@ -40,5 +40,3 @@ Before running the app, make sure you have the following installed on your syste
 3. open navigator go to 
  ```bash
     http://127.0.0.1:5000/
- 
-   
