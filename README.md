@@ -33,16 +33,21 @@ Before running the app, make sure you have the following installed on your syste
 
 ## Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine
 
    ```bash
    git clone https://github.com/itsmeiliass/SenScope.git
    cd SenScope
+2. install necessary libraries
 
-2. run the flask app 
+   ```bash
+   pip install "biblioname"
+run this for every library
+
+3. run the flask app 
     ```bash
    python app.py
-3. open navigator go to 
+4. open navigator go to 
     ```bash
     http://127.0.0.1:5000/
 
