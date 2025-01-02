@@ -189,6 +189,71 @@
             text-align: center;
             padding: 10px;
         }
+/* Steps Container */
+.steps-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.step {
+    text-align: center;
+    max-width: 150px;
+}
+
+.step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.step img:hover {
+    transform: scale(1.2);
+}
+
+.step p {
+    font-size: 1rem;
+    color: #333;
+}
+/* features */
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e0e0e0; /* Match with other sections */
+   
+}
+
+.features h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.feature-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    text-align: center;
+    max-width: 150px;
+}
+
+.feature-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
     </style>
 </head>
 <body>
@@ -209,27 +274,66 @@
     <!-- Main Content -->
     <div class="main-content">
         <h2>Discover Sentiment in Tweets</h2>
-        <p>Discover the sentiment behind any tweet. My advanced machine learning model analyzes tweets. Start exploring now!</p>
+        <p>Discover the sentiment behind any tweet. My advanced machine learning model analyzes tweets. Start exploring now </p>
         <button onclick="window.location.href='/'">Analyze a Tweet</button>
     </div>
 
-    <!-- How It Works Section -->
-    <div class="how-it-works">
-        <h2>How It Works</h2>
-        <p>SenScope uses advanced Natural Language Processing (NLP) techniques and machine learning algorithms to analyze the emotions expressed in tweets. Here's a quick overview of the process:</p>
-        <ul>
-            <li>Input a tweet or text.</li>
-            <li>The model pre-processes the text to remove unnecessary elements like hashtags and links.</li>
-            <li>The system identifies key words and patterns to determine the sentiment.</li>
-            <li>Finally, it classifies the sentiment as Positive, Negative, or Neutral.</li>
-        </ul>
+   <!-- How It Works Section -->
+<div id="how-it-works" class="how-it-works">
+    <h2>How It Works</h2>
+    <p>
+        SenScope uses advanced Natural Language Processing (NLP) techniques and machine learning algorithms 
+        to analyze the emotions expressed in tweets. Here's a quick overview of the process:
+    </p>
+    <div class="steps-container">
+        <div class="step">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/typewriter-with-paper.png" alt="Input">
+            <p>Input a tweet or text</p>
+        </div>
+        <div class="step">
+            <img src="https://img.icons8.com/ios/50/4CAF50/filter.png" alt="Pre-process">
+            <p>Text pre-processing</p>
+        </div>
+        <div class="step">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/idea.png" alt="Analyze">
+            <p>Analyze sentiment</p>
+        </div>
+        <div class="step">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/checked.png" alt="Output">
+            <p>Classify sentiment</p>
+        </div>
     </div>
+</div>
+
+<!-- Features Section -->
+<div class="features">
+    <h2>Key Features</h2>
+    <div class="feature-items">
+        <div class="feature-item">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/speed.png" alt="Fast">
+            <h3>Fast Analysis</h3>
+            <p>Get sentiment results in seconds with high accuracy.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://img.icons8.com/ios/50/4CAF50/pie-chart.png" alt="Data Insights">
+            <h3>Data Insights</h3>
+            <p>Provides deeper understanding of emotional trends in tweets.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://img.icons8.com/ios/50/4CAF50/shield.png" alt="Secure">
+            <h3>Secure</h3>
+            <p>Your data is processed securely and never stored.</p>
+        </div>
+    </div>
+</div>
+
+
 
     <!-- About Us Section -->
     <div class="about-us" id="about-us">
         <h2>About Us</h2>
-        <p>This project was developed by a solo developer passionate about data science and AI. It uses cutting-edge technologies like Flask and machine learning to analyze sentiment in tweets.</p>
-        <p>Check out the project's code on GitHub: <a href="https://github.com/itsmeiliass/SenScope" target="_blank">View Repository</a></p>
+        <p>This project was developed by a solo developer passionate about data science and AI. It uses cutting-edge technologies like Flask and machine learning to analyze sentiment in tweets</p>
+        <p>Check out the project's code on GitHub <a href="https://github.com/itsmeiliass/SenScope" target="_blank">View Repository</a></p>
         <h3>Contact Me</h3>
         <div class="social-icons">
             <a href="https://x.com/Aga__Sa" target="_blank"><img src="https://img.icons8.com/ios-filled/50/4CAF50/twitter.png" alt="Twitter"></a>
