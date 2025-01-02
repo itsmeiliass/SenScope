@@ -16,6 +16,11 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+# Define the home route
+@app.route('/landing')
+def landing():
+    return render_template('landing-page.html')
+
 # Define the route to render the sentiment analysis page
 @app.route('/analyze' , methods=['POST'])
 def analyze():
