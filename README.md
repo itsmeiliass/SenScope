@@ -15,9 +15,12 @@ This classification provides valuable insights for businesses, organizations, an
 
 - **`/graphs`**: Contains the generated graphs and visualizations of the sentiment analysis data.
 - **`/templates`**: Contains the HTML files for rendering the Flask app, including the index page and results page.
+- **`/static`**: Contains the background image can contain css files too.
 - **`app.py`**: The main Flask application that handles routing and sentiment analysis.
 - **`main.py`**: the full data processing and model deployement .
 - **`twitter_training`**: data set used for training .
+- **`landing-page.html`**: landing page for the project .
+
 
 
 
